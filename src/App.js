@@ -1,14 +1,8 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import User from "./pages/User"
+import User from "./pages/User";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Layout/Navbar";
 import Footer from "./components/Layout/Footer";
